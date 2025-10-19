@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*  <!-- NAVIGATION BAR --> */
+nav {
+    background-color: #fcf2f2;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    color: #e6175f;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0b0b0b;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #e6175f;
+    transform: scale(1);
+}
+
+
+
+/* <!-- MAIN CONTAINER --> */
+.container-1 {
+    background-image: url(products/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    height: 600px;
+    width: 1529px;
+}
+
+.container-2 {
+    background-color: #ffffffa4;
+    height: 450px;
+    border: 0.5rem solid#ff9fc1;
+    border-radius: 2rem;
+
+
+}
+
+.container-2 h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-2 p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
+
+}
+
+/*  <!-- BUTTONS --> */
+button {
+    margin: 4.7rem;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background: #e6175f;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 20px;
+    transition:1s;
+
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+/*  <!-- FORM CANTAINER --> */
+.form-container {
+    background-color: rgb(252, 221, 226);
+    height: 510px;
+    width: 550px;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.form-container h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #e6175f;
+    padding-bottom: 1.5rem;
+
+}
+
+/* <!--- FORM ---- */
+label {
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+input {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 27rem;
+    border: none;
+    border-bottom: 2px solid grey;
+    text-align: left;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+textarea {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 1rem 1rem 2rem 1rem;
+    height: 2rem;
+    width: 27rem;
+    color: grey;
+}
+
+/* <!-- SEND BUTTON --> */
+.send {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #e6175f;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 20px;
+
+}
+
+/*  <!-- SECOND CONTAINER --> */
+.form-container-2 {
+    background-color: rgb(252, 221, 226);
+    height: 510px;
+    width: 550px;
+    margin-top: -31.7rem;
+    margin-left: 56rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem 2rem 4rem;
+}
+
+.form-container-2 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #e6175f;
+    padding-bottom: 1rem;
+}
+
+.img-container h2 {
+    margin-bottom: 1rem;
+}
+
+.img-container img {
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.img-container h3 {
+    margin-top: -4rem;
+    margin-left: 5rem;
+    color: #e6175f;
+}
+
+.img-container p {
+    margin-top: -0.1rem;
+    margin-left: 5rem;
+    font-size: 20px;
+    margin-right: 5rem;
+}
+
+/* <!-- MAP CNTAINER --> */
+.map {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+h6 {
+    color: #e6175f;
+    /* margin-top: 6rem; */
+    font-size: 50px;
+}
+
+iframe {
+    margin-top: 2rem;
+    width:700px;
+
+}
+
+
+/* <!-- FOOTER CONTAINER --> */
+.footcontainer {
+    background-color: #e6175f;
+}
+
+.foot {
+    padding: 2rem;
+    font-size: larger;
+    color: #fff;
+
+}
+
+.foot p {
+    text-align: center;
+}

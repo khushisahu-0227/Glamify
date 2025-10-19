@@ -1,0 +1,437 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*  <!-- NAVIGATION BAR --> */
+nav {
+    background-color: #fcf2f2;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    color: #e6175f;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0b0b0b;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: #e6175f;
+    transform: scale(1);
+}
+
+
+/* <!-- MAIN CONTAINER --> */
+.container {
+    background-color: #f8a6bd;
+    text-align: center;
+    height: 87.3vh;
+}
+
+.img-overlay {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-overlay img {
+    margin-top: 0.1rem;
+    margin-left: -60rem;
+    height: 606px;
+    width: 999px;
+}
+
+.img-overlay h1 {
+    margin-left: 30rem;
+    margin-top: -29rem;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 60px;
+
+}
+
+.img-overlay .p1 {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 3rem;
+    color: rgb(0, 0, 0);
+    margin-left: 34rem;
+}
+
+
+/* <-----  BUTTON  -----> */
+button {
+    background-color: #e6175f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px 15px 40px;
+    font-size: 20px;
+    margin: 40px;
+    transition: 1s;
+    margin-top: 1rem;
+    margin-left: 35rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+/* <!-- PRODUCT GALLERY --> */
+
+/* <!-- GLAMIFY BLUSHES--> */
+.p-container1 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.h2p1 {
+    text-align: center;
+}
+
+.h2p1 h2 {
+    font-size: 70px;
+    color: #e6175f;
+    margin-left: 38rem;
+    margin-top: -27rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p1 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.h2p1 a {
+    margin-left: 10rem;
+}
+
+
+/*  <!-- GLAMIFY FOUNDATIONS --> */
+.p-container2 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container2 img {
+    margin-top: -4rem;
+}
+
+.h2p2 {
+    text-align: center;
+}
+
+.h2p2 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -29rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p2 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p2 a {
+    margin-left: 10rem;
+}
+
+
+/*  <!-- GLAMIFY BRUSHES --> */
+.p-container3 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container3 img {
+    margin-top: -5.5rem;
+}
+
+.h2p3 {
+    text-align: center;
+}
+
+.h2p3 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -29rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p3 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p3 a {
+    margin-left: 10rem;
+}
+
+
+/*  <!-- GLAMIFY EYESHADOW --> */
+.p-container4 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container4 img {
+    margin-top: 0.1rem;
+    border-radius: 3rem;
+}
+
+.h2p4 {
+    text-align: center;
+}
+
+.h2p4 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -26rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p4 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p4 a {
+    margin-left: 10rem;
+}
+
+
+/*  <!-- GLAMIFY HIGHLIGHTER --> */
+.p-container5 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container5 img {
+    margin-top: 0.0rem;
+
+}
+
+.h2p5 {
+    text-align: center;
+}
+
+.h2p5 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -32rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p5 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p5 a {
+    margin-left: 10rem;
+}
+
+
+/*  <!-- GLAMIFY LIPSTICS --> */
+.p-container6 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container6 img {
+    margin-top: -3.9rem;
+    margin-left: 1rem;
+
+}
+
+.h2p6 {
+    text-align: center;
+}
+
+.h2p6 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -27rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p6 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p6 a {
+    margin-left: 10rem;
+}
+
+
+/*  <!-- GLAMIFY EYELINERS --> */
+.p-container7 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container7 img {
+    margin-top: -0rem;
+}
+
+.h2p7 {
+    text-align: center;
+}
+
+.h2p7 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -35rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p7 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p7 a {
+    margin-left: 10rem;
+}
+
+/*  <!-- GLAMIFY EYELINERS --> */
+.p-container8 {
+    background: linear-gradient(#f981ab, #fad9e2, #f981ab);
+    margin-top: 4rem;
+    height: 33.2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.img-container8 img {
+    margin-top: -0rem;
+}
+
+.h2p8 {
+    text-align: center;
+}
+
+.h2p8 h2 {
+    font-size: 90px;
+    color: #e6175f;
+    margin-left: 36rem;
+    margin-top: -29rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.h2p8 p {
+    font-size: 20px;
+    margin-left: 40rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+}
+
+/* <--- button --- > */
+.h2p8 a {
+    margin-left: 10rem;
+}
+
+/* <!-- FOOTER CONTAINER --> */
+.footcontainer {
+    background-color: #e6175f;
+}
+
+.foot {
+    padding: 2rem;
+    font-size: larger;
+    color: #fff;
+    text-align: center;
+}
